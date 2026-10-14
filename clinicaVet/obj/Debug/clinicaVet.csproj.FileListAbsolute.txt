@@ -1,0 +1,12 @@
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\bin\Debug\clinicaVet.exe.config
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\bin\Debug\clinicaVet.exe
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\bin\Debug\clinicaVet.pdb
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.csproj.AssemblyReference.cache
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.Form1.resources
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.Properties.Resources.resources
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.csproj.GenerateResource.cache
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.exe
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.pdb
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.exe.config
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.loginUsuario.resources
