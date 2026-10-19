@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="enderecos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enderecos.Designer.cs">
+      <DependentUpon>enderecos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funcionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcionarios.Designer.cs">
+      <DependentUpon>funcionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="loginAdm.cs">
       <SubType>Form</SubType>
@@ -64,6 +76,12 @@
     <Compile Include="loginUsuario.Designer.cs">
       <DependentUpon>loginUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="medicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="medicamentos.Designer.cs">
+      <DependentUpon>medicamentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="primeiroAcesso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,20 +90,53 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recepcao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recepcao.Designer.cs">
+      <DependentUpon>recepcao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcaoTela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecepcaoTela.Designer.cs">
+      <DependentUpon>RecepcaoTela.cs</DependentUpon>
+    </Compile>
     <Compile Include="recuperacaoSenha.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="recuperacaoSenha.Designer.cs">
       <DependentUpon>recuperacaoSenha.cs</DependentUpon>
     </Compile>
+    <Compile Include="telaAdministração.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telaAdministração.Designer.cs">
+      <DependentUpon>telaAdministração.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuario.Designer.cs">
+      <DependentUpon>usuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="enderecos.resx">
+      <DependentUpon>enderecos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="funcionarios.resx">
+      <DependentUpon>funcionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginAdm.resx">
       <DependentUpon>loginAdm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginUsuario.resx">
       <DependentUpon>loginUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="medicamentos.resx">
+      <DependentUpon>medicamentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="primeiroAcesso.resx">
       <DependentUpon>primeiroAcesso.cs</DependentUpon>
@@ -100,8 +151,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="recepcao.resx">
+      <DependentUpon>recepcao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecepcaoTela.resx">
+      <DependentUpon>RecepcaoTela.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="recuperacaoSenha.resx">
       <DependentUpon>recuperacaoSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telaAdministração.resx">
+      <DependentUpon>telaAdministração.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario.resx">
+      <DependentUpon>usuario.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,6 +181,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image 1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cat Footprint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-38189492 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

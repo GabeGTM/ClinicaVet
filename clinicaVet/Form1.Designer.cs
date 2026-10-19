@@ -45,10 +45,10 @@
             this.clinicaVet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clinicaVet.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clinicaVet.ForeColor = System.Drawing.Color.Black;
-            this.clinicaVet.Location = new System.Drawing.Point(88, 155);
+            this.clinicaVet.Location = new System.Drawing.Point(88, 166);
             this.clinicaVet.Margin = new System.Windows.Forms.Padding(1);
             this.clinicaVet.Name = "clinicaVet";
-            this.clinicaVet.Size = new System.Drawing.Size(298, 63);
+            this.clinicaVet.Size = new System.Drawing.Size(298, 49);
             this.clinicaVet.TabIndex = 2;
             this.clinicaVet.Text = "Clínica Vet";
             this.clinicaVet.UseMnemonic = false;

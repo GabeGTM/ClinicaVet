@@ -10,3 +10,7 @@ C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet
 C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.pdb
 C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.exe.config
 C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.loginUsuario.resources
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.loginAdm.resources
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.primeiroAcesso.resources
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.recuperacaoSenha.resources
+C:\Users\gabriel.tmabreu\source\repos\clinicaVet\clinicaVet\obj\Debug\clinicaVet.telaAdministração.resources
