@@ -51,6 +51,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -64,7 +65,7 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(628, 392);
+            this.button3.Location = new System.Drawing.Point(628, 381);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(20, 20);
@@ -77,7 +78,7 @@
             this.exluir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.exluir.FlatAppearance.BorderSize = 0;
             this.exluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exluir.Location = new System.Drawing.Point(648, 392);
+            this.exluir.Location = new System.Drawing.Point(648, 381);
             this.exluir.Margin = new System.Windows.Forms.Padding(0);
             this.exluir.Name = "exluir";
             this.exluir.Size = new System.Drawing.Size(20, 20);
@@ -91,7 +92,7 @@
             this.button2.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(36, 330);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(242, 23);
+            this.button2.Size = new System.Drawing.Size(221, 23);
             this.button2.TabIndex = 70;
             this.button2.Text = "Adicionar / Editar Funcionários";
             this.button2.UseVisualStyleBackColor = true;
@@ -205,28 +206,28 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(524, 393);
+            this.textBox5.Location = new System.Drawing.Point(524, 382);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 90;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(406, 393);
+            this.textBox6.Location = new System.Drawing.Point(406, 382);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 89;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(278, 393);
+            this.textBox7.Location = new System.Drawing.Point(278, 382);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 88;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(156, 393);
+            this.textBox8.Location = new System.Drawing.Point(156, 382);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 87;
@@ -235,7 +236,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(521, 372);
+            this.label5.Location = new System.Drawing.Point(521, 361);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 18);
             this.label5.TabIndex = 85;
@@ -245,7 +246,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(403, 372);
+            this.label10.Location = new System.Drawing.Point(403, 361);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(66, 18);
             this.label10.TabIndex = 84;
@@ -255,7 +256,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(275, 372);
+            this.label11.Location = new System.Drawing.Point(275, 361);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(42, 18);
             this.label11.TabIndex = 83;
@@ -265,7 +266,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(153, 372);
+            this.label12.Location = new System.Drawing.Point(153, 361);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(50, 18);
             this.label12.TabIndex = 82;
@@ -275,7 +276,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(12, 372);
+            this.label13.Location = new System.Drawing.Point(12, 361);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(82, 18);
             this.label13.TabIndex = 81;
@@ -283,10 +284,22 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 392);
+            this.textBox1.Location = new System.Drawing.Point(15, 381);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 91;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(560, 415);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(108, 32);
+            this.button4.TabIndex = 212;
+            this.button4.Text = "Voltar";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // funcionarios
             // 
@@ -295,6 +308,7 @@
             this.BackgroundImage = global::clinicaVet.Properties.Resources.image_1__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(704, 473);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox6);
@@ -356,5 +370,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button4;
     }
 }

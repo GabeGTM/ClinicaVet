@@ -51,6 +51,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.exluir = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -181,7 +182,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(13, 371);
+            this.label5.Location = new System.Drawing.Point(13, 361);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(42, 18);
             this.label5.TabIndex = 26;
@@ -191,7 +192,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(154, 371);
+            this.label6.Location = new System.Drawing.Point(154, 361);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 18);
             this.label6.TabIndex = 27;
@@ -201,7 +202,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(276, 371);
+            this.label7.Location = new System.Drawing.Point(276, 361);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(89, 18);
             this.label7.TabIndex = 28;
@@ -211,7 +212,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(404, 371);
+            this.label8.Location = new System.Drawing.Point(404, 361);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 18);
             this.label8.TabIndex = 29;
@@ -221,7 +222,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(522, 371);
+            this.label9.Location = new System.Drawing.Point(522, 361);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(58, 18);
             this.label9.TabIndex = 30;
@@ -229,7 +230,7 @@
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(16, 392);
+            this.maskedTextBox1.Location = new System.Drawing.Point(16, 382);
             this.maskedTextBox1.Mask = " 00000-000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
@@ -237,28 +238,28 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(157, 392);
+            this.textBox1.Location = new System.Drawing.Point(157, 382);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 32;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(279, 392);
+            this.textBox2.Location = new System.Drawing.Point(279, 382);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 33;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(407, 392);
+            this.textBox3.Location = new System.Drawing.Point(407, 382);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 34;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(525, 392);
+            this.textBox4.Location = new System.Drawing.Point(525, 382);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 35;
@@ -269,7 +270,7 @@
             this.exluir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.exluir.FlatAppearance.BorderSize = 0;
             this.exluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exluir.Location = new System.Drawing.Point(661, 391);
+            this.exluir.Location = new System.Drawing.Point(661, 381);
             this.exluir.Margin = new System.Windows.Forms.Padding(0);
             this.exluir.Name = "exluir";
             this.exluir.Size = new System.Drawing.Size(20, 20);
@@ -282,12 +283,24 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(637, 391);
+            this.button3.Location = new System.Drawing.Point(637, 381);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(20, 20);
             this.button3.TabIndex = 37;
             this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(528, 408);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(108, 32);
+            this.button4.TabIndex = 211;
+            this.button4.Text = "Voltar";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // enderecos
             // 
@@ -296,6 +309,7 @@
             this.BackgroundImage = global::clinicaVet.Properties.Resources.image_1__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(704, 473);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.exluir);
             this.Controls.Add(this.textBox4);
@@ -356,5 +370,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button exluir;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

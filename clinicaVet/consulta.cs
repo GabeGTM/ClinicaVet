@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace clinicaVet
 {
-    public partial class RecepcaoTela : Form
+    public partial class consulta : Form
     {
-        public RecepcaoTela()
+        public consulta()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

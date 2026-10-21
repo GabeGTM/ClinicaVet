@@ -19,12 +19,21 @@ namespace clinicaVet
             panel1.BackColor = Color.FromArgb(120, 255, 255, 255);
         }
 
-
         private void tutor_Click(object sender, EventArgs e)
         {
-            loginUsuario lu = new loginUsuario();
-            lu.ShowDialog();
+            // Botão Tutor
+            loginUsuario telaLogin = new loginUsuario();
+            telaLogin.Show();
+            this.Hide();
         }//fim botão tutor
+
+        private void clinicaVet_Click(object sender, EventArgs e)
+        {
+            // Botão Clínica Vet (Adm)
+            loginAdm telaAdm = new loginAdm();
+            telaAdm.Show();
+            this.Hide();
+        }//fim botão clínica vet
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -37,11 +46,6 @@ namespace clinicaVet
         }
 
         private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void clinicaVet_Click(object sender, EventArgs e)
         {
 
         }

@@ -61,6 +61,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(371, 257);
@@ -136,7 +137,7 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel1.Controls.Add(this.texto1);
-            this.panel1.Location = new System.Drawing.Point(47, 22);
+            this.panel1.Location = new System.Drawing.Point(40, 41);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(258, 385);
             this.panel1.TabIndex = 19;
@@ -159,7 +160,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(355, 452);
+            this.pictureBox1.Size = new System.Drawing.Size(355, 472);
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 

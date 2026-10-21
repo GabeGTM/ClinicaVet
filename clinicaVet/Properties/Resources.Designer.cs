@@ -203,6 +203,16 @@ namespace clinicaVet.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Sound_detection_dog_barking__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Sound detection dog barking (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Trash_7 {
             get {
                 object obj = ResourceManager.GetObject("Trash 7", resourceCulture);

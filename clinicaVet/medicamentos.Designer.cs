@@ -49,6 +49,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -62,7 +63,7 @@
             this.exluir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.exluir.FlatAppearance.BorderSize = 0;
             this.exluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exluir.Location = new System.Drawing.Point(648, 392);
+            this.exluir.Location = new System.Drawing.Point(648, 383);
             this.exluir.Margin = new System.Windows.Forms.Padding(0);
             this.exluir.Name = "exluir";
             this.exluir.Size = new System.Drawing.Size(20, 20);
@@ -71,28 +72,28 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(482, 392);
+            this.textBox4.Location = new System.Drawing.Point(482, 383);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 57;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(327, 392);
+            this.textBox3.Location = new System.Drawing.Point(327, 383);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(129, 20);
             this.textBox3.TabIndex = 56;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(190, 392);
+            this.textBox2.Location = new System.Drawing.Point(190, 383);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 55;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(36, 392);
+            this.textBox1.Location = new System.Drawing.Point(36, 383);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 54;
@@ -101,7 +102,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(479, 371);
+            this.label9.Location = new System.Drawing.Point(479, 362);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(70, 18);
             this.label9.TabIndex = 52;
@@ -111,7 +112,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(324, 371);
+            this.label8.Location = new System.Drawing.Point(324, 362);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(108, 18);
             this.label8.TabIndex = 51;
@@ -121,7 +122,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(187, 371);
+            this.label7.Location = new System.Drawing.Point(187, 362);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(77, 18);
             this.label7.TabIndex = 50;
@@ -131,7 +132,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(33, 371);
+            this.label6.Location = new System.Drawing.Point(33, 362);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 18);
             this.label6.TabIndex = 49;
@@ -262,12 +263,24 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(628, 392);
+            this.button3.Location = new System.Drawing.Point(628, 383);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(20, 20);
             this.button3.TabIndex = 59;
             this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(560, 418);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(108, 32);
+            this.button4.TabIndex = 212;
+            this.button4.Text = "Voltar";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // medicamentos
             // 
@@ -276,6 +289,7 @@
             this.BackgroundImage = global::clinicaVet.Properties.Resources.image_1__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(704, 473);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.exluir);
             this.Controls.Add(this.textBox4);
@@ -333,5 +347,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
